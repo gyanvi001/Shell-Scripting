@@ -8,7 +8,6 @@ df -h >> /var/log/fs-monitor.txt
 sleep 120
 done
 
-
 #Service file in /etc/systemd/system/fs-monitor.service
 [Unit]
 Description=Disk Utilization Monitor
