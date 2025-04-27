@@ -12,8 +12,3 @@ else
 echo "$i is odd"
 fi
 done
-
-
-
-
-
