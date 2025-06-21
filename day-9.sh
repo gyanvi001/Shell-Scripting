@@ -7,7 +7,7 @@ DB_name = "mysql"
 Bacup_Dir = "/backup/db"
 Upgrade_Script = "/tmp/upgrade.sh"
 
-#Step 2:- Craete backup directory
+#Step 2:- Craete backup folder
 echo "Creating backup directory..."
 mkdir -p "$Bacup_Dir"
 Backup_File = "$Bacup_Dir/$(date+%Y-%m-%d).sql
