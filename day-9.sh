@@ -2,7 +2,7 @@
 
 #Step 1:- Set db parameters
 DB_user = "root"
-DB_pass = "login123"
+DB_pass = "login601"
 DB_name = "mysql"
 Bacup_Dir = "/backup/db"
 Upgrade_Script = "/tmp/upgrade.sh"
