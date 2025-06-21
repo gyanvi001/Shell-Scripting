@@ -12,5 +12,5 @@ echo "$http1_code"
 if [ "$http1_code" -eq 200 ]; then
   echo "The URL is reachable."
 else
-  echo "The URL is not reachable. HTTP status code: $http1_code"
+  echo "The URL is unreachable. HTTP status code: $http1_code"
 fi
